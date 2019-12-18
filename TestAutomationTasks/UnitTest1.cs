@@ -14,7 +14,7 @@ namespace TestAutomationTasks
             // Creates a new Chrome instance and opens the browser
             driver.Navigate().GoToUrl("https://www.bbc.com");
             // Navigates to a page by address
-
+            driver.Quit();
 
         }
     }

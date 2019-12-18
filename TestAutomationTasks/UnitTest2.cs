@@ -23,14 +23,9 @@ namespace TestAutomationTasks
             
             IWebElement el1 = driver.FindElement(By.XPath("/html/body/div[7]/div/div[4]/div[2]/div/div/div/div/div[1]/div/div/div[1]/div/a/h3"));
             string el1Text = el1.Text;
-            Assert.AreEqual("'Appalling' attack on HK envoy in UK angers China", el1Text);
+            Assert.AreEqual("Trump faces impeachment vote", el1Text);
 
-
-
-            
-               
-
-
+            driver.Quit();
 
 
             // Navigates to a page by address
